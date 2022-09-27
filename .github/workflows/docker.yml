@@ -26,4 +26,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
+    - name: Build and push
+      uses: docker/build-push-action@v3
+      with:
+          push: false
+          tags: user/app:latest
 
