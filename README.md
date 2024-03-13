@@ -15,5 +15,6 @@ contains a shell script with commands that are executed when Jenkins processes
 the "Deliver" stage of your Pipeline.
 
 New comment
+New Comment 2
 
 Test comment1
